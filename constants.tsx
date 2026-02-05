@@ -18,9 +18,9 @@ export const PILLARS: Project[] = [
     ],
     image: "https://i.ifh.cc/5hNobA.jpg",
     tags: ["AI Publishing", "eBook", "ISBN System"],
-    link: {
+    links: {
       web: "https://serenbooks.co.kr/18/?idx=31"
-       },
+    },
   },
   {
     id: 2,
@@ -34,10 +34,11 @@ export const PILLARS: Project[] = [
       "가출원(임시출원) 전략을 통한 빠른 아이디어 선점 지원"
     ],
     image: "https://i.ifh.cc/lcmmLb.jpg",
-    tags: ["Patent AI", "KIPRIS API", "Legal Tech"]
+    tags: ["Patent AI", "KIPRIS API", "Legal Tech"],
      links: {
       kyobo: "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000011932990"
-  },
+     },
+   },
   {
     id: 3,
     category: "EDUCATION",
