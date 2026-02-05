@@ -17,7 +17,7 @@ export const PILLARS: Project[] = [
       "《전자책 쓰는 전자책(전자전)》 워크북 및 퍼널 연계"
     ],
     image: "https://i.ifh.cc/5hNobA.jpg",
-    tags: ["AI Publishing", "eBook", "ISBN System"]
+    tags: ["AI Publishing", "eBook", "ISBN System"],
     links: {
       web: "https://serenbooks.co.kr/18/?idx=31"
   },
