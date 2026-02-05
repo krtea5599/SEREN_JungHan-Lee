@@ -18,8 +18,9 @@ export const PILLARS: Project[] = [
     ],
     image: "https://i.ifh.cc/5hNobA.jpg",
     tags: ["AI Publishing", "eBook", "ISBN System"],
-    links: {
+    link: {
       web: "https://serenbooks.co.kr/18/?idx=31"
+       },
   },
   {
     id: 2,
