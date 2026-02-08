@@ -2,7 +2,7 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>SEREN COMPANY | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
       }
       body {
         font-family: 'Inter', sans-serif;
-        background-color:#F9F9F9;
+        background-color: #F9F9F9;
         margin: 0;
         overflow-x: hidden;
       }
@@ -22,6 +22,11 @@
       .text-outline {
         -webkit-text-stroke: 1.5px black;
         color: transparent;
+      }
+      @media (max-width: 768px) {
+        .text-outline {
+          -webkit-text-stroke: 1px black;
+        }
       }
       #root {
         min-height: 100vh;

@@ -1,3 +1,4 @@
+
 import { Project, ServiceSystem } from './types';
 
 export const VISION_IMAGE = "https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=2000&auto=format&fit=crop";
@@ -18,7 +19,8 @@ export const PILLARS: Project[] = [
     ],
     image: "https://i.ifh.cc/5hNobA.jpg",
     tags: ["AI Publishing", "eBook", "ISBN System"],
-    link: {
+    // Fix: changed 'link' to 'links' to match the Project interface
+    links: {
       web: "https://serenbooks.co.kr/18/?idx=31"
     },
   },
@@ -35,14 +37,15 @@ export const PILLARS: Project[] = [
     ],
     image: "https://i.ifh.cc/lcmmLb.jpg",
     tags: ["Patent AI", "KIPRIS API", "Legal Tech"],
-     link: {
+     // Fix: changed 'link' to 'links' to match the Project interface
+     links: {
       kyobo: "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000011932990"
      },
    },
   {
     id: 3,
     category: "EDUCATION",
-    title: "3. SEREN School",
+    title: "3. SEREN 엄마학교",
     description: "배움을 실행으로 연결 / SEREN School은 지식이 ‘아는 것’에 머무르지 않도록 설계된 교육 프로젝트입니다.",
     fullDescription: "학습자는 AI와 함께 '자신의 경험과 아이디어' 그리고 '배움'이 지식에 머무르지 않고, 콘텐츠·브랜드·지식재산으로 확장하는 과정을 경험합니다.",
     achievements: [

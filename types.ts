@@ -9,6 +9,11 @@ export interface Project {
   features?: string[];
   image: string;
   tags?: string[];
+  links?: {
+    web?: string;
+    kyobo?: string;
+    store?: string;
+  };
 }
 
 export interface ServiceSystem {
