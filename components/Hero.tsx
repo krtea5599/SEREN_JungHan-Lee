@@ -3,16 +3,18 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <section id="home" className="min-h-screen bg-[#F9F9F9] flex flex-col items-start pt-24 pb-20 px-6 md:px-12 overflow-hidden relative">
-      {/* Header Typography - Aligned Left */}
-      <div className="w-full max-w-7xl flex flex-col items-start text-left">
-        <h1 className="flex flex-col items-start leading-[0.85] tracking-tighter uppercase font-black animate-fadeIn">
-          <span className="text-6xl md:text-[140px] text-black">SEREN</span>
-          <span className="text-6xl md:text-[140px] text-outline">COMPANY</span>
+      {/* 타이틀과 소개글을 감싸는 전체 컨테이너 */}
+      <div className="w-full max-w-7xl flex flex-col md:flex-row items-start md:items-end gap-8 md:gap-12 animate-fadeIn">
+        
+        {/* 1. 왼쪽: 거대한 타이틀 */}
+        <h1 className="flex flex-col items-start leading-[0.85] tracking-tighter uppercase font-black shrink-0">
+          <span className="text-6xl md:text-[90px] text-black">SEREN</span>
+          <span className="text-6xl md:text-[90px] text-outline">COMPANY</span>
         </h1>
         
-        {/* Introduction Line - Aligned Left & Optimized for Mobile */}
-        <div className="mt-8 mb-12 animate-fadeIn w-full">
-          <p className="text-base md:text-2xl font-normal tracking-tight text-black/80 text-left leading-relaxed max-w-3xl">
+        {/* 2. 오른쪽: 소개 문구 (md:mb-4를 주어 타이틀 하단 라인과 맞춤) */}
+        <div className="mb-4 max-w-2xl">
+          <p className="text-base md:text-[20px] font-normal tracking-tight text-black/80 text-left leading-relaxed">
             <span className="font-black text-[#1040DD]">안녕하세요.</span><br />
             <span className="font-black text-black/90">AI</span>와 <span className="font-black text-black/90">구조 설계</span>를 기반으로 
             <span className="font-black text-black/90">브랜드</span>를 구축하는<br />
