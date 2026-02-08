@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
         
         {/* 2. 오른쪽: 소개 문구 (md:mb-4를 주어 타이틀 하단 라인과 맞춤) */}
         <div className="mb-4 max-w-2xl">
-          <p className="text-base md:text-[20px] font-normal tracking-tight text-black/80 text-left leading-relaxed">
+          <p className="text-lg md:text-2xl font-normal tracking-tight text-black/80 text-left leading-relaxed">
             <span className="font-black text-[#1040DD]">안녕하세요.</span><br />
             <span className="font-black text-black/90">AI</span>와 <span className="font-black text-black/90">구조 설계</span>를 기반으로 
             <span className="font-black text-black/90">브랜드</span>를 구축하는<br />
